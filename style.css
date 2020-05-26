@@ -1,0 +1,61 @@
+* {
+    margin: 5px;
+}
+
+body {
+    background-color: lightgray;
+    margin: 15px 50px 5px 50px;
+}
+
+h1, p, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+button {
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    font-size: 20px;
+    border-radius: 5px;
+    float: right;
+}
+
+button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.flex-container#home {
+    flex-wrap: nowrap;
+}
+
+.flex-item {
+    display: inline-block;
+    flex-grow: 0;
+}
+
+.flex-item#projects {
+    width: 45%;
+}
+
+img#garden {
+    width: 100%;
+}
+
+img#adoption {
+    height: 400px;
+}
